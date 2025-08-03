@@ -103,6 +103,9 @@
     line-height: 10px;
     margin-top: 5px;
   }
+   .works-grid {
+    margin-bottom: 348px;
+  }
 }
 @media (max-width: 390px) {
   .container {
@@ -113,6 +116,9 @@
   }
   .image-wrapper {
     height: 145px;
+  }
+   .works-grid {
+    margin-bottom: 260px;
   }
 }
 @media (max-width: 334px) {
@@ -140,3 +146,4 @@
     height: 120px;
   }
 }
+
