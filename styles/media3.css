@@ -1,0 +1,142 @@
+@media (max-width: 1024px) {
+  nav {
+    padding-left: 15px;
+    gap: 17px;
+  }
+}
+@media (max-width: 850px) {
+  .container {
+    max-width: 700px;
+  }
+  .works-grid {
+    gap: 20px;
+  }
+  .work-item {
+    width: 295px;
+  }
+  .image-wrapper {
+    height: 310px;
+  }
+}
+@media (max-width: 768px) {
+  nav {
+    padding-left: 0;
+    gap: 0px;
+  }
+  nav a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 684px) {
+  nav a {
+    padding: 10px 0px;
+  }
+}
+@media (max-width: 665px) {
+  nav img {
+    height: 30px;
+  }
+  .work-item {
+    width: 270px;
+  }
+  .image-wrapper {
+    height: 270px;
+  }
+  .work-description {
+    font-size: 14px;
+
+    line-height: 20px;
+  }
+}
+@media (max-width: 589px) {
+  header {
+    margin-bottom: 20px;
+  }
+  nav a {
+    font-size: 9px;
+  }
+  .container {
+    max-width: 495px;
+  }
+  .work-item {
+    width: 215px;
+  }
+  .image-wrapper {
+    height: 215px;
+  }
+  .work-description {
+    font-size: 10px;
+    line-height: 16px;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    gap: 12px;
+  }
+  .navbar {
+    padding: 0px 20px;
+  }
+  .nav-left {
+    padding: 3px 4px;
+  }
+  nav img {
+    height: 20px;
+    margin-right: -27px;
+  }
+  nav a {
+    font-size: 8px;
+  }
+  .container {
+    max-width: 400px;
+  }
+  .work-item {
+    width: 170px;
+  }
+  .image-wrapper {
+    height: 170px;
+  }
+  .work-description {
+    font-size: 9px;
+    line-height: 10px;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 390px) {
+  .container {
+    max-width: 345px;
+  }
+  .work-item {
+    width: 145px;
+  }
+  .image-wrapper {
+    height: 145px;
+  }
+}
+@media (max-width: 334px) {
+  .navbar {
+    gap: 16px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  nav img {
+    margin-right: -13px;
+    height: 19px;
+  }
+  .nav-left {
+    gap: 16px;
+    margin-left: -18px;
+  }
+  .container {
+    max-width: 320px;
+  }
+  .work-item {
+    width: 120px;
+  }
+  .image-wrapper {
+    height: 120px;
+  }
+}

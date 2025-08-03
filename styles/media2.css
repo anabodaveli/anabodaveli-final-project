@@ -1,0 +1,172 @@
+@media (max-width: 1024px) {
+  nav {
+    padding-left: 15px;
+    gap: 17px;
+  }
+}
+@media (max-width: 768px) {
+  nav {
+    padding-left: 0;
+    gap: 0px;
+  }
+  nav a {
+    font-size: 12px;
+  }
+  .intro h2,
+  h1 {
+    font-size: 17px;
+  }
+  .info {
+    font-size: 12px;
+  }
+  nav {
+    padding-left: 0;
+    gap: 0px;
+  }
+  nav a {
+    font-size: 12px;
+  }
+  .container {
+    padding: 0 15px;
+  }
+
+  .profile-card {
+    padding: 15px;
+    margin-bottom: 40px;
+  }
+
+  .intro img {
+    width: 120px;
+  }
+
+  .about-me p,
+  .hobbies ul {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .social {
+    font-size: 14px;
+  }
+
+  .hobbies,
+  .about-me {
+    padding: 12px;
+  }
+}
+@media (max-width: 684px) {
+  nav a {
+    padding: 10px 0px;
+  }
+}
+@media (max-width: 665px) {
+  nav img {
+    height: 30px;
+  }
+}
+@media (max-width: 589px) {
+  nav a {
+    font-size: 9px;
+  }
+}
+@media (max-width: 480px) {
+  nav {
+    gap: 12px;
+  }
+  nav img {
+    height: 35px;
+    margin-right: -27px;
+  }
+  nav a {
+    font-size: 8px;
+  }
+  .profile-card {
+    margin: 0 10px 30px;
+    padding: 12px;
+  }
+
+  .intro h1 {
+    font-size: 18px;
+  }
+
+  .intro h2 {
+    font-size: 16px;
+  }
+
+  .about-me h3,
+  .hobbies h3 {
+    font-size: 18px;
+  }
+
+  .about-me p,
+  .hobbies ul {
+    font-size: 13px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .icons {
+    padding-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .icons img {
+    width: 22px;
+    height: 22px;
+  }
+}
+@media (max-width: 385px) {
+  .nav-left {
+    margin-left: -35px;
+  }
+  .intro h1 {
+    font-size: 14px;
+  }
+
+  .intro h2 {
+    font-size: 13px;
+  }
+
+  .intro img {
+    width: 100px;
+  }
+
+  .about-me p,
+  .hobbies ul {
+    font-size: 12.5px;
+  }
+
+  .social {
+    font-size: 13px;
+  }
+}
+@media (max-width: 334px) {
+  .navbar {
+    gap: 16px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  nav img {
+    margin-right: -13px;
+    height: 19px;
+  }
+  .nav-left {
+    gap: 16px;
+    margin-left: -37px;
+  }
+}
