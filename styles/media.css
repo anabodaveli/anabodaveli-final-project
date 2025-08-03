@@ -151,14 +151,14 @@
 }
 @media (max-width: 480px) {
   nav {
-    gap: 12px;
+    gap: 11px;
   }
   nav img {
     height: 35px;
     margin-right: -27px;
   }
   nav a {
-    font-size: 8px;
+    font-size: 6px;
   }
   .image img {
     height: 290px;
@@ -256,3 +256,4 @@
     height: 170px;
   }
 }
+
